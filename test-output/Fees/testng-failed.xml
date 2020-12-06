@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Fees]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="FeeManagement(failed)">
+    <classes>
+      <class name="AllTestCases.StudentFeePayment">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyFeepayment"/>
+        </methods>
+      </class> <!-- AllTestCases.StudentFeePayment -->
+    </classes>
+  </test> <!-- FeeManagement(failed) -->
+</suite> <!-- Failed suite [Fees] -->

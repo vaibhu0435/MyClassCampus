@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Feesmanagement(failed)">
+    <classes>
+      <class name="FeesPayment">
+        <methods>
+          <include name="payment"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- FeesPayment -->
+      <class name="Feesbatch">
+        <methods>
+          <include name="batchsetupsuccessfull"/>
+          <include name="enterstartdateandenddate"/>
+          <include name="setUp"/>
+          <include name="loadbatchsetuppage"/>
+          <include name="SelectValidFeeStructure"/>
+          <include name="importstudent"/>
+        </methods>
+      </class> <!-- Feesbatch -->
+    </classes>
+  </test> <!-- Feesmanagement(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" verbose="1" name="Fees" annotations="JDK" parallel="tests">
+   <test name="FeeManagement" >
+       <classes> 
+          <class name="AllTestCases.StudentFeePayment"/>
+          <class name="AllTestCases.VerifyFeesReport"/>
+       </classes>
+   </test>
+</suite>
+
